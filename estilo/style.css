@@ -1,0 +1,105 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+:root {
+    --fontpadrao: Arial, Helvetica, sans-serif;
+    --fontheader: 'Pacifico', cursive;
+    --fontmain: 'Cookie', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+
+body{
+    font-family: var(--fontpadrao);
+    text-align: justify;
+}
+
+header {
+    background-color: black;
+    padding: 30px;
+    box-shadow:1px 1px 4px 1px rgba(0, 0, 0, 0.486);
+}
+
+header h1 {
+    font-family: var(--fontheader);
+    font-size: 6vw;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: rgba(255, 255, 255, 0.842);
+    text-align: center;
+}
+
+header p>a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header p > a:hover {
+    text-decoration: underline;
+}
+
+section {
+    line-height: 4em;
+    padding: 60px;
+    margin-top: 30px;
+    font-family: var(--fontmain);
+}
+
+section p {
+    padding-bottom: 1em;
+    font-size: 45px;
+}
+
+section.img {
+    background: black url('../imagens/background0.jpg') no-repeat fixed right center;
+    background-size: cover;
+    box-shadow:  inset 2px 1px 7px 1px rgba(0, 0, 0, 0.384);
+}
+
+section.img1 {
+    background: black url('../imagens/background002.jpg') no-repeat fixed right center;
+    background-size: cover;
+    box-shadow:  inset 2px 1px 7px 1px rgba(0, 0, 0, 0.384);
+}
+
+.fundo {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.247);
+    width: 380px;
+}
+
+footer {
+    font-family: var(--fontpadrao);
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 1px 1px  1px 1px;
+    box-shadow: 1px -1px 4px 1px rgb(0 0 0 / 34%);
+    padding: 1px;
+}
+
+footer p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer p > a:hover {
+    text-decoration: underline;
+    
+}
+
+
+
+
